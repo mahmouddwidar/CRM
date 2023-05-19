@@ -32,7 +32,6 @@ def registerPage(request):
             # user.groups.add(group)
 
             # Connect the user table to the customer table in my DB
-            # اللى هو بقوله فى جدول الزبون اعمل او دخل فيه اللى يوزر اللى لسه معمول ف يبقى موجود عندى فى الجدولين كده
             # Customer.objects.create(user=user,)
 
             messages.success(request, 'Account was created for ' + username)
